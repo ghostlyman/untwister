@@ -76,6 +76,9 @@ Python Bindings
 ### Ubuntu/Debian Linux
 
 ```
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install build-essential 
 sudo apt-get install python-dev libboost-python-dev libcppunit-dev
 make python
 ```
